@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'asapregular';
+    src: url('asap-regular-webfont.eot');
+    src: url('asap-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('asap-regular-webfont.woff') format('woff'),
+         url('asap-regular-webfont.ttf') format('truetype'),
+         url('asap-regular-webfont.svg#asapregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 10pt asapregular;
+}
+.wrapper {
+    background: url("../images/bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 419px;
+    margin: 0 auto;
+    width: 730px;
+}
+.base {
+    background: url("../images/base.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 352px;
+    margin: 0 auto;
+    width: 322px;
+}
+.base h1 {
+    background: url("../images/header.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #DAE4EB;
+    margin: 0 auto;
+    text-transform: capitalize;
+    width: 318px;
+}
+.base h1 .text {
+    background: url("../images/header-hr.png") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+}
+.text {
+	
+    display: inline-block;
+    padding: 6px 15px;
+    width: 257px;
+}
+.i {
+    background: url("../images/i.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+    display: inline-block;
+    height: 16px;
+    margin: 0 5px 0 10px;
+    vertical-align: middle;
+    width: 16px;
+}
+.i.prev {
+    background-position: -33px 100%;
+    margin: -5px 5px 0 0;
+}
+.i.next {
+    background-position: right bottom;
+    float: right;
+    margin: -2px 5px 0 10px;
+}
+.i.trash {
+    background-position: left bottom;
+    margin: -5px 5px 0 10px;
+}
+.i.add {
+    background-position: left 90%;
+}
+p {
+    background: url("../images/vt.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+}
+p .text {
+    background: url("../images/hr.png") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+}
+p .i {
+    padding: 0 0 0 2px;
+}
